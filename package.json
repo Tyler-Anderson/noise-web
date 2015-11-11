@@ -1,30 +1,48 @@
 {
-    "name": "noise-web",
-    "version": "0.1.0",
-    "description": "base noise-thing",
-    "main": "src/app.js",
-
-    "dependencies": {
-        "lodash" : "^3.10.1",
-        "material-ui": "^0.13.2",
-        "react": "^0.14.2"
-    },
-
-    "devDependencies": {
-        "reactify": "^1.1.1",
-        "gulp-scss": "^1.3.15",
-        "gulp-util": "~2.2.12",
-        "gulp": "^3.9.0",
-        "gulp-react": "^3.1.0",
-        "gulp-uglify": "~0.1.0",
-        "gulp-watch": "~4.3.5",
-        "gulp-concat": "~2.1.7",
-        "gulp-notify": "~0.3.4-1",
-        "gulp-sourcemaps": "~1.6.0",
-        "gulp-babel": "~6.1.0",
-        "vinyl-source-stream": "~1.0.0",
-        "vinyl-buffer": "~1.0.0",
-        "browserify": "^8.1.3",
-        "watchify": "~3.6.0"
+  "name": "noise-web",
+  "version": "0.1.0",
+  "description": "base noise-thing",
+  "main": "src/js/app.js",
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "material-ui": "^0.13.2",
+    "event-stream": "^3.3.2",
+    "react": "^0.14.2",
+    "babel-runtime": "^5.6.20",
+    "mustache": "^2.1.2",
+    "request": "^2.58.0",
+    "semver": "^5.0.1",
+    "del": "^1.2.0",
+    "yargs": "^3.15.0",
+    "nexusui": "^1.0.8",
+    "numeral": "^1.5.3",
+    "extend": "^3.0.0",
+    "jquery": "2.1.4"
+  },
+  "devDependencies": {
+    "browserify": "^8.1.3",
+    "glob": "^5.0.15",
+    "gulp": "^3.9.0",
+    "gulp-babel": "~6.1.0",
+    "gulp-concat": "~2.1.7",
+    "gulp-notify": "~0.3.4-1",
+    "gulp-react": "^3.1.0",
+    "gulp-remove-use-strict": "0.0.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-scss": "^1.3.15",
+    "gulp-sourcemaps": "~1.6.0",
+    "gulp-uglify": "~0.1.0",
+    "gulp-util": "~2.2.12",
+    "gulp-watch": "~4.3.5",
+    "reactify": "^1.1.1",
+    "vinyl-buffer": "~1.0.0",
+    "vinyl-source-stream": "~1.0.0",
+    "gulp-remove-use-strict": "^0.0.2",
+    "watchify": "~3.6.0"
+  },
+  "babel": {
+      "blacklist" : [
+          "useStrict"
+      ]
     }
 }

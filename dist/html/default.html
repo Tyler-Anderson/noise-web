@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+  <title>Noise Thing</title>
+  <link href='http://fonts.googleapis.com/css?family=Josefin+Sans&subset=latin,latin-ext'
+        rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="../styles/default.css">
+  <link rel="stylesheet" type="text/css" href="../styles/switchery.min.css">
+
+
+
+</head>
+<body>
+
+<span id="title">
+    <h1>Noise Thing</h1>
+    <h4>Volume</h4>
+    <div style="margin-bottom:15px;"><span id="percent">0 %</span></div>
+</span>
+
+<div id="root-container">
+    <canvas nx="dial" id="masterVolume" style="
+                            width:170px;
+                            height:170px;">
+    </canvas>
+    <div class="single-Item" id="switch" style="margin-top:20px;">
+        <input type="checkbox" id="power" class="js-switch" />
+    </div>
+</div>
+
+ <div class="container">
+     <div id="bar-root">
+    <div class="control-col" id="bar1">
+    <canvas nx="slider" height="300" width="45" id="whiteVolume" class="slider"></canvas>
+    </div>
+    <div class="control-col" id="bar2">
+    <canvas nx="slider" height="300" width="45" id="pinkVolume" class="slider"></canvas>
+    </div>
+    <div class="control-col" id="bar3">
+    <canvas nx="slider" height="300" width="45" id="brownVolume" class="slider"></canvas>
+    </div>
+     </div>
+ </div>
+
+<script type="text/javascript" src="../scripts/renderer/noise.js"></script>
+<script type="text/javascript" src="../scripts/renderer/switchery.min.js"></script>
+<script type="text/javascript" src="../scripts/renderer/default.js"></script>
+</body>
+</html>
