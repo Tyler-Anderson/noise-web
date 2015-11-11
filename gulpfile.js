@@ -14,10 +14,7 @@ const gulp = require('gulp'),
       react = require('gulp-react'),
       reactify = require('reactify'),
       es = require('event-stream'),
-      removeUseStrict = require("gulp-remove-use-strict");
-
-
-const bundler = watchify(browserify('./src/js/app.js', watchify.args)
+      bundler = watchify(browserify('./src/js/app.js', watchify.args)
                        .transform(reactify));
 
 // add any other browserify options or transforms here
@@ -70,7 +67,7 @@ function bundle() {
 }
 
 gulp.task('scss',function(){
-    gulp.src('./scss/**/*.scss')
+    gulp.src('./src/scss/**/*.scss')
       .pipe(sourcemaps.init())
       .pipe(scss())
       .pipe(sourcemaps.write())

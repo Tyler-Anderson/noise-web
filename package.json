@@ -39,10 +39,5 @@
     "vinyl-source-stream": "~1.0.0",
     "gulp-remove-use-strict": "^0.0.2",
     "watchify": "~3.6.0"
-  },
-  "babel": {
-      "blacklist" : [
-          "useStrict"
-      ]
-    }
+  }
 }

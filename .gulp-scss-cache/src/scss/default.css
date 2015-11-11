@@ -1,0 +1,69 @@
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #d8d6a0; }
+
+h1 {
+  font-size: 55px;
+  text-align: center;
+  color: #331a38;
+  margin-top: 25px; }
+
+h2 {
+  color: #2b6cc2;
+  font-family: 'Crimson Text', Georgia, serif;
+  font-weight: 400; }
+
+h4 {
+  color: #494132;
+  text-align: center;
+  margin-bottom: 7px; }
+
+#percent {
+  margin-bottom: 10px;
+  text-align: center; }
+
+a {
+  color: #2b6cc2;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+
+#dial-root {
+  display: block;
+  margin-bottom: 50px; }
+
+.container {
+  display: block;
+  position: relative;
+  clear: both; }
+
+.control-col {
+  display: inline;
+  margin: 30px; }
+
+#root-container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 50px; }
+
+.single-item {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  clear: both; }
+
+#bar-root {
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, 0%); }
+
+#title {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  text-align: center; }
+
+/*# sourceMappingURL=default.css.map */

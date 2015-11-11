@@ -1,6 +1,7 @@
 /*
 Tyler Anderson 2015
 */
+'use strict';
 
 const jQuery = require('jQuery');
 const $ = jQuery;

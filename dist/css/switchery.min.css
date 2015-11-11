@@ -1,0 +1,45 @@
+.switchery {
+  background-color: #fff;
+  border: 1px solid #dfdfdf;
+  border-radius: 20px;
+  cursor: pointer;
+  display: inline-block;
+  height: 30px;
+  position: relative;
+  vertical-align: middle;
+  width: 50px;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  box-sizing: content-box;
+  background-clip: content-box; }
+
+.switchery > small {
+  background: #fff;
+  border-radius: 100%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  height: 30px;
+  position: absolute;
+  top: 0;
+  width: 30px; }
+
+.switchery-small {
+  border-radius: 20px;
+  height: 20px;
+  width: 33px; }
+
+.switchery-small > small {
+  height: 20px;
+  width: 20px; }
+
+.switchery-large {
+  border-radius: 40px;
+  height: 40px;
+  width: 66px; }
+
+.switchery-large > small {
+  height: 40px;
+  width: 40px; }
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9zY3NzL3N3aXRjaGVyeS5taW4uc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxVQUFVO0VBQUMsZ0JBQWdCLEVBQUMsSUFBSTtFQUFDLE1BQU0sRUFBQyxpQkFBaUI7RUFBQyxhQUFhLEVBQUMsSUFBSTtFQUFDLE1BQU0sRUFBQyxPQUFPO0VBQUMsT0FBTyxFQUFDLFlBQVk7RUFBQyxNQUFNLEVBQUMsSUFBSTtFQUFDLFFBQVEsRUFBQyxRQUFRO0VBQUMsY0FBYyxFQUFDLE1BQU07RUFBQyxLQUFLLEVBQUMsSUFBSTtFQUFDLGdCQUFnQixFQUFDLElBQUk7RUFBQyxrQkFBa0IsRUFBQyxJQUFJO0VBQUMsbUJBQW1CLEVBQUMsSUFBSTtFQUFDLGVBQWUsRUFBQyxJQUFJO0VBQUMsV0FBVyxFQUFDLElBQUk7RUFBQyxVQUFVLEVBQUMsV0FBVztFQUFDLGVBQWUsRUFBQyxXQUFXOztBQUFDLGtCQUFnQjtFQUFDLFVBQVUsRUFBQyxJQUFJO0VBQUMsYUFBYSxFQUFDLElBQUk7RUFBQyxVQUFVLEVBQUMsNEJBQXlCO0VBQUMsTUFBTSxFQUFDLElBQUk7RUFBQyxRQUFRLEVBQUMsUUFBUTtFQUFDLEdBQUcsRUFBQyxDQUFDO0VBQUMsS0FBSyxFQUFDLElBQUk7O0FBQUMsZ0JBQWdCO0VBQUMsYUFBYSxFQUFDLElBQUk7RUFBQyxNQUFNLEVBQUMsSUFBSTtFQUFDLEtBQUssRUFBQyxJQUFJOztBQUFDLHdCQUFzQjtFQUFDLE1BQU0sRUFBQyxJQUFJO0VBQUMsS0FBSyxFQUFDLElBQUk7O0FBQUMsZ0JBQWdCO0VBQUMsYUFBYSxFQUFDLElBQUk7RUFBQyxNQUFNLEVBQUMsSUFBSTtFQUFDLEtBQUssRUFBQyxJQUFJOztBQUFDLHdCQUFzQjtFQUFDLE1BQU0sRUFBQyxJQUFJO0VBQUMsS0FBSyxFQUFDLElBQUkiLCJmaWxlIjoic3dpdGNoZXJ5Lm1pbi5jc3MiLCJzb3VyY2VzQ29udGVudCI6W251bGxdLCJzb3VyY2VSb290IjoiL3NvdXJjZS8ifQ== */
